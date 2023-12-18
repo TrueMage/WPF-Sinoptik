@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>WPF_Sinoptik</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="sinoptic.png" />
+    <None Remove="snow.gif" />
+    <None Remove="sun.gif" />
+    <None Remove="weather.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="sinoptic.png" />
+    <Resource Include="weather.png" />
+  </ItemGroup>
+
+</Project>
