@@ -12,12 +12,19 @@
   <ItemGroup>
     <None Remove="sinoptic.png" />
     <None Remove="snow.gif" />
+    <None Remove="snow.png" />
     <None Remove="sun.gif" />
+    <None Remove="sun.png" />
     <None Remove="weather.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="snow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="sinoptic.png" />
+    <Resource Include="sun.png" />
     <Resource Include="weather.png" />
   </ItemGroup>
 
